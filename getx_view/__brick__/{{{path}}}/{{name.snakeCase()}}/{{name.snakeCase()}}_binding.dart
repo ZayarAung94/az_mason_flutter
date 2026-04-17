@@ -7,8 +7,6 @@ class {{name.pascalCase()}}Binding extends Bindings {
   void dependencies() {
 
     // 3. Inject Controller
-    Get.put(
-      {{name.pascalCase()}}Controller()
-    );
+    Get.put({{name.pascalCase()}}Controller());
   }
 }
