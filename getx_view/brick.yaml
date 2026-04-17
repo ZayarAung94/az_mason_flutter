@@ -9,6 +9,12 @@ environment:
 vars:
   name:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: "The name of the view"
+    default: "home"
+    prompt: "What is the name of your feature/view? (e.g., login, taxi_detail)"
+
+  path:
+    type: string
+    description: "The folder path where files will be generated"
+    default: "lib/features"
+    prompt: "Where do you want to generate? (Enter folder path)"
